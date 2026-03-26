@@ -2,7 +2,7 @@ import { Video, SiteConfig } from './types';
 
 export const SITE_CONFIG: SiteConfig = {
   siteName: "منصة أ/ حمدي\nرضوان",
-  examsLink: "https://exam-platform-3ril-git-main-mohamedradwannn0-1197s-projects.vercel.app/",
+  examsLink: "https://mr-hamdy-radwan-platform-gbx9ui76f.vercel.app",
   contactDetails: {
     phone: "01XXXXXXXXX",
     whatsapp: "https://wa.me/201XXXXXXXXX",
