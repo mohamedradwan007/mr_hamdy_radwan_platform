@@ -1,0 +1,38 @@
+{
+  "config": {
+    "siteName": "أ/ حمدي رضوان",
+    "siteSubtitle": "مدرس الرياضيات والإحصاء للمراحل الثانوية",
+    "examsLink": "https://mr-hamdy-radwan-platform.netlify.app/",
+    "contactDetails": {
+      "phone": "01XXXXXXXXX",
+      "whatsapp": "https://wa.me/201XXXXXXXXX",
+      "telegram": "https://t.me/XXXXXXXXX",
+      "email": "info@example.com",
+      "address": "المكان بالتفصيل هنا"
+    },
+    "heroTitle": "أ/ حمدي رضوان",
+    "heroSubtitle": "فيديوهات الشرح"
+  },
+  "videos": [
+    {
+      "id": 1,
+      "title": "المشتقات — المفهوم الأساسي",
+      "unit": "الوحدة الأولى",
+      "level": "أول ثانوي",
+      "duration": "18:42",
+      "views": "1,240",
+      "ytLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    }
+  ],
+  "adminPassword": "admin123",
+  "students": [
+    {
+      "phone": "01000000000",
+      "name": "طالب"
+    },
+    {
+      "phone": "01014528579",
+      "name": "محمد رضوان"
+    }
+  ]
+}

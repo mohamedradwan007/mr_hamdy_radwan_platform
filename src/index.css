@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap');
+
+@theme {
+  --font-sans: "Cairo", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-bg-primary: #0f1123;
+  --color-bg-secondary: #161929;
+  --color-bg-card: #1e2235;
+  --color-bg-card-hover: #252840;
+  --color-accent: #8b6fd4;
+  --color-accent-light: #a688f0;
+  --color-text-primary: #e8e8f0;
+  --color-text-muted: #8888a8;
+  --color-border-accent: rgba(139, 111, 212, 0.15);
+}
+
+body {
+  @apply bg-bg-primary text-text-primary min-h-screen;
+  direction: rtl;
+}
+
+@layer base {
+  * {
+    @apply border-border-accent;
+  }
+}
+@keyframes shimmer {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}

@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "SiteConfig": {
+      "title": "Site Configuration",
+      "description": "Global settings for the platform",
+      "type": "object",
+      "properties": {
+        "siteName": { "type": "string" },
+        "siteSubtitle": { "type": "string" },
+        "examsLink": { "type": "string" },
+        "showContact": { "type": "boolean" },
+        "contactDetails": {
+          "type": "object",
+          "properties": {
+            "phone": { "type": "string" },
+            "whatsapp": { "type": "string" },
+            "telegram": { "type": "string" },
+            "email": { "type": "string" },
+            "address": { "type": "string" }
+          }
+        },
+        "heroTitle": { "type": "string" },
+        "heroSubtitle": { "type": "string" }
+      }
+    },
+    "Video": {
+      "title": "Video Lesson",
+      "description": "A video lesson for the students",
+      "type": "object",
+      "properties": {
+        "id": { "type": "number" },
+        "title": { "type": "string" },
+        "unit": { "type": "string" },
+        "level": { "type": "string" },
+        "duration": { "type": "string" },
+        "views": { "type": "string" },
+        "ytLink": { "type": "string" }
+      }
+    },
+    "Student": {
+      "title": "Student",
+      "description": "A registered student",
+      "type": "object",
+      "properties": {
+        "phone": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "HonorStudent": {
+      "title": "Honor Roll Student",
+      "description": "A student in the honor roll",
+      "type": "object",
+      "properties": {
+        "id": { "type": "number" },
+        "name": { "type": "string" },
+        "score": { "type": "string" },
+        "level": { "type": "string" },
+        "rank": { "type": "number" },
+        "certificateUrl": { "type": "string" }
+      },
+      "required": ["id", "name", "score", "level", "rank"]
+    }
+  },
+  "firestore": {
+    "/config/main": {
+      "schema": "SiteConfig",
+      "description": "The main site configuration"
+    },
+    "/videos/{videoId}": {
+      "schema": "Video",
+      "description": "Collection of video lessons"
+    },
+    "/students/{studentId}": {
+      "schema": "Student",
+      "description": "Collection of registered students"
+    },
+    "/honor_roll/{studentId}": {
+      "schema": "HonorStudent",
+      "description": "Collection of honor roll students"
+    }
+  }
+}

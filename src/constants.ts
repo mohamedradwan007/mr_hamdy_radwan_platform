@@ -1,0 +1,90 @@
+import { Video, SiteConfig } from './types';
+
+export const SITE_CONFIG: SiteConfig = {
+  siteName: "منصة أ/ حمدي\nرضوان",
+  examsLink: "https://mr-hamdy-radwan-platform.netlify.app/",
+  contactDetails: {
+    phone: "01XXXXXXXXX",
+    whatsapp: "https://wa.me/201XXXXXXXXX",
+    telegram: "https://t.me/XXXXXXXXX",
+    email: "info@example.com",
+    address: "المكان بالتفصيل هنا",
+  },
+  heroTitle: "أ/ حمدي رضوان",
+  heroSubtitle: "فيديوهات الشرح",
+};
+
+export const VIDEOS: Video[] = [
+  {
+    id: 1,
+    title: "المشتقات — المفهوم الأساسي",
+    unit: "الوحدة الأولى",
+    level: "أول ثانوي",
+    duration: "18:42",
+    views: 1240,
+    ytLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", // مثال
+  },
+  {
+    id: 2,
+    title: "المصفوفات — جمع وضرب",
+    unit: "الوحدة الثانية",
+    level: "أول ثانوي",
+    duration: "22:10",
+    views: 980,
+    ytLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  },
+  {
+    id: 3,
+    title: "الاحتمالات — حل مسائل",
+    unit: "الوحدة الثالثة",
+    level: "ثاني ثانوي",
+    duration: "15:30",
+    views: 760,
+    ytLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  },
+  {
+    id: 4,
+    title: "التفاضل والتكامل",
+    unit: "الوحدة الأولى",
+    level: "ثالث ثانوي",
+    duration: "28:05",
+    views: 2100,
+    ytLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  },
+  {
+    id: 5,
+    title: "المتتاليات والمتسلسلات",
+    unit: "الوحدة الثانية",
+    level: "ثاني ثانوي",
+    duration: "19:55",
+    views: 1050,
+    ytLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  },
+  {
+    id: 6,
+    title: "الهندسة التحليلية — المستقيم",
+    unit: "الوحدة الثالثة",
+    level: "أول ثانوي",
+    duration: "24:18",
+    views: 870,
+    ytLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  },
+  {
+    id: 7,
+    title: "الأعداد المركبة",
+    unit: "الوحدة الرابعة",
+    level: "ثالث ثانوي",
+    duration: "31:44",
+    views: 3400,
+    ytLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  },
+  {
+    id: 8,
+    title: "حساب المثلثات — الزوايا",
+    unit: "الوحدة الثانية",
+    level: "ثاني ثانوي",
+    duration: "17:20",
+    views: 640,
+    ytLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  },
+];
